@@ -1,0 +1,44 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+*.so
+
+build/
+dist/
+*.egg-info/
+.eggs/
+
+venv/
+.env/
+.env.*
+.venv/
+ENV/
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+.ipynb_checkpoints/
+
+.DS_Store
+Thumbs.db
+
+*.log
+
+runs/
+wandb/
+mlruns/
+
+# models/*.pt
+models/*.onnx
+models/*.engine
+
+# dataset/images/
+# dataset/labels/
+
+.coverage
+htmlcov/
+
+.cache/
